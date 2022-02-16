@@ -13,6 +13,7 @@ This is a very lightweight application... ~500kb without modules. It is built on
 ```
 git clone https://github.com/AlexKvazos/MinecraftChat
 cd MinecraftChat
+npm install -g grunt-cli
 npm install && grunt build
 npm start
 ```
