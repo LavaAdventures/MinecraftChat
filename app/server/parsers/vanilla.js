@@ -23,13 +23,13 @@ export default (jsonMsg) => {
 
 
     case 'commands.generic.notFound':
-      return `§${color}Unknown command. Try /help for a list of commands`;
+      return `§${color}LKC | Unknown command. Try /help for a list of commands`;
 
 
     case 'commands.players.list':
       connected   = jsonMsg.with[0];
       max         = jsonMsg.with[1];
-      return `§${color}There are ${connected}/${max} players online:`;
+      return `§${color}LKC | There are ${connected}/${max} players online:`;
 
 
     case 'commands.help.header':

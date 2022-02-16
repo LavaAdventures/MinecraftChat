@@ -9,10 +9,9 @@ export default (socket) => {
     socket.emit('bot:connect', {
       host: socket.connectionParams.hostname,
       port: socket.connectionParams.port,
-      username: socket.mcbot.username,
-      version: socket.connectionParams.version
+      username: socket.mcbot.username
     });
-    console.log(`${timestamp}: logged in > ${socket.connectionParams.hostname}:${socket.connectionParams.port} - Username: ${socket.mcbot.username}`);
+    console.log(`${timestamp}: ${socket.connectionParams.hostname}:${socket.connectionParams.port} - ${socket.mcbot.username} [logged in]`);
   };
 
   socket.mcbot.on('login', onLogin);
