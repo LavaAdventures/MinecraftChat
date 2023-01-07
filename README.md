@@ -2,6 +2,7 @@ MinecraftChat
 -------
 [![Circle CI](https://circleci.com/gh/AlexKvazos/MinecraftChat.svg?style=svg)](https://circleci.com/gh/AlexKvazos/MinecraftChat)
 
+Yeah, I fixed another stupid software. - Lava
 Web based Minecraft chat client for 1.8 servers.
 
 ![MinecraftChat Screenshot](http://puu.sh/hwR1L/9e88547904.png)
